@@ -140,6 +140,11 @@ section h2{
 
 .skills{
     margin-top:25px;
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
 }
 
 .skills span{
@@ -148,11 +153,14 @@ section h2{
     background:#ffe7f0;
     color:#ff6c9f;
 
+    min-width:180px;
     padding:10px 18px;
-    margin:5px;
 
     border-radius:999px;
     font-size:14px;
+
+    text-align:center;
+    letter-spacing:-0.5px;
 }
 
 /* 상품 */
